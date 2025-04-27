@@ -1,4 +1,7 @@
-# Phkiener Personal
+# phkiener/personal - A tap for my own software
+
+I'm too shy to put this stuff into homebrew/core - and I don't think it's even worthy being in there.
+So I just do my own tap. Because I can!
 
 ## How do I install these formulae?
 
