@@ -13,5 +13,5 @@ cask "colima-status-bar" do
         strategy :github_latest
     end
     
-    app "ColimaStatusBar.app"
+    app "ColimaStatusBar-#{version}/ColimaStatusBar.app"
 end
