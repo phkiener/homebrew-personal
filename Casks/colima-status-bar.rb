@@ -1,6 +1,6 @@
 cask "colima-status-bar" do
-    version "4.0.0"
-    sha256 "5EDF3FF66CC70BAEDA69385CAA1BC636A3658A5FAAA44EBF738324424A96FF96"
+    version "4.0.1"
+    sha256 "FEE5F4D02223FA60486E04F889FA8C2301BF75D758819445657B45FD85385E0E"
 
     url "https://github.com/phkiener/ColimaStatusBar/releases/download/#{version}/ColimaStatusBar-#{version}.zip"
 
