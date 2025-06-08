@@ -14,4 +14,5 @@ cask "colima-status-bar" do
     end
 
     app "ColimaStatusBar.app"
+    uninstall login_item: "ColimaStatusBar"
 end
