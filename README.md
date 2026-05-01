@@ -1,13 +1,13 @@
-# phkiener/personal - A tap for my own software
+# phkiener/homebrew-personal - A tap for my own software
 
 I'm too shy to put this stuff into homebrew/core - and I don't think it's even worthy being in there.
 So I just do my own tap. Because I can!
 
 ## How do I install these formulae?
 
-`brew install phkiener/personal/<formula>`
+`brew install phkiener/homebrew-personal/<formula>`
 
-Or `brew tap phkiener/personal` and then `brew install <formula>`.
+Or `brew tap phkiener/homebrew-personal` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
