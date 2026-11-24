@@ -1,21 +1,9 @@
 # phkiener/personal - A tap for my own software
 
-I'm too shy to put this stuff into homebrew/core - and I don't think it's even worthy of being in there.
-So I just do my own tap. Because I can!
+A tap for my stuff, mostly casks I figure. Since I oppose paying Apple for the privilege of
+"signing" my software, Gatekeeper will complain. I have a postflight step to remove the quarantine
+bit, fingers crossed.
 
-## How do I install these formulae?
+## How do I install stuff?
 
-`brew install phkiener/personal/<formula>`
-
-Or `brew tap phkiener/personal` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "phkiener/personal"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew tap phkiener/personal` for the tap as a whole, or explicitly for a single cask: `brew install phkiener/personal/<cask>`
