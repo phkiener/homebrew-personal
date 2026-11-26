@@ -1,8 +1,7 @@
 # phkiener/personal - A tap for my own software
 
 A tap for my stuff, mostly casks I figure. Since I oppose paying Apple for the privilege of
-"signing" my software, Gatekeeper will complain. I have a postflight step to remove the quarantine
-bit, fingers crossed.
+"signing" my software, Gatekeeper will complain.
 
 ## How do I install stuff?
 

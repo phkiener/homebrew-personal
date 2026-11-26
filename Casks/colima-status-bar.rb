@@ -17,11 +17,5 @@ cask "colima-status-bar" do
     depends_on macos: :sequoia
     depends_on arch: :arm64
 
-    postflight_steps do
-        on_macos do
-            run "/usr/bin/xattr", args: ["-rd", "com.apple.quarantine", "#{appdir}/ColimaStatusBar.app"]
-        end
-    end
-
     uninstall login_item: "ColimaStatusBar"
 end
